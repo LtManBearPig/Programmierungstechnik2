@@ -9,6 +9,7 @@ import java.lang.reflect.Method;
 
 public class Programm {
 	public static void main(String[] args) throws IOException, ClassNotFoundException {
+		//Hier Absoluten Link zu Objekte.ser eintragen!!!
 		FileInputStream fis = new FileInputStream("C:\\Users\\User\\Desktop\\Java\\Programierungstechnik2\\Aufgabe2\\Aufgaben\\bin\\aufgabe9\\Objekte.ser");
 		ObjectInputStream ois = new ObjectInputStream(fis);
 		
