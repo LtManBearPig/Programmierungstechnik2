@@ -13,11 +13,12 @@ public class List {
 
 	}
 
-	public void append(int i) {
+	public boolean append(int i) {
 		if (this.anker == null) {
 			this.anker = new Element();
 			this.anker.value = i;
 			this.anker.next = null;
+			return true;
 		} else {
 			Element search = this.anker;
 			while (search.next != null) {
@@ -26,6 +27,7 @@ public class List {
 			search.next = new Element();
 			search.next.value = i;
 			search.next.next = null;
+			return true;
 		}
 	}
 
