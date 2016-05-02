@@ -1,6 +1,6 @@
 package aufgabe7;
 
-public class Person implements Comparable<Person>{
+public abstract class Person implements Comparable<Person>{
 	protected String name;
 	protected String vorname;
 	
