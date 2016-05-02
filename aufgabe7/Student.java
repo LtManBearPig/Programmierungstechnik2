@@ -2,8 +2,8 @@ package aufgabe7;
 
 public class Student extends Person{
 	
-	protected int matrnr;
-	protected String studiengang;
+	int matrnr;
+	String studiengang;
 	
 	public Student(String name, String Vorname, int matrnr, String studiengang) {
 		super(name, Vorname);
