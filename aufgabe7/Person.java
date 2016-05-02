@@ -1,8 +1,8 @@
 package aufgabe7;
 
 public class Person implements Comparable<Person>{
-	String name;
-	String vorname;
+	protected String name;
+	protected String vorname;
 	
 	public Person(String name, String vorname){
 		this.name=name;
