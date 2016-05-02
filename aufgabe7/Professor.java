@@ -2,8 +2,8 @@ package aufgabe7;
 
 public class Professor extends Person{
 	
-	String gebiet;
-	int tel;
+	protected String gebiet;
+	protected int tel;
 	
 	public Professor(String name, String vorname, String gebiet, int tel){
 		super(name,vorname);
